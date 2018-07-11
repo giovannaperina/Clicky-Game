@@ -49,15 +49,15 @@ class App extends Component {
       selectedCards.push(card);
       score = score + 1;
 
-      if( score > topScore ) { // se score for maior que topScore, atualiza o valor do topScore
+      if( score > topScore ) { // If score is bigger than topScore, then update topScore
         topScore = score;
       }
 
       this.setState({
         selectedCards: selectedCards,
-        score: score, // adiciona +1 na pontuação
+        score: score, // add +1
         topScore: topScore,
-        cards: _.shuffle(cardsJson) // randomiza os cards
+        cards: _.shuffle(cardsJson) // randomize cards
       });
 
       if(selectedCards.length === 12) {
