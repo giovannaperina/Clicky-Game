@@ -15,6 +15,7 @@ The game will keep the track of the top score.
 ---
 ### Demo
 ![Demo](src/images/demo.gif)
+OBS(the .gif decreased the quality on demo)
 
 
 
