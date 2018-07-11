@@ -3,6 +3,8 @@
 ## Overview 
 The Toy Story Clicky Game is a memory game using React.
 
+Please check out the launched app on Heroku [Here](https://infinite-reef-53648.herokuapp.com/)!
+
 ### Main Page 
 ![mainPage](src/images/mainPage.png)
 
@@ -15,6 +17,7 @@ The game will keep the track of the top score.
 ---
 ### Demo
 ![Demo](src/images/demo.gif)
+
 OBS(the .gif decreased the quality on demo)
 
 
