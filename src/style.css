@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto';
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+/* Navbar */
+.game-nav {
+    background-color: #f2d746;
+    padding: 10px 0;
+    color: #fff;
+    box-shadow: 0px 1px 20px 1px rgba(255,255,255,0.5);
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top:0px;
+
+
+}
+.title  {
+    font-family: "Luckiest Guy";
+}
+.title h4 {
+    font-size: 30px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+}
+.instructions h4 {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+h4 span {
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+    color: #bd1d36;
+    font-size: 20px;  
+}
+
+/* Header */
+
+.header {
+    background: url(images/backHeader.jpg);
+    background-size: cover;
+    height: 440px;
+}
+.back-image {
+    padding-top: 120px;
+}
+.back-image p {
+    padding-top: 20px;
+    color: #fafafa;
+    font-size: 22px;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+/* Game Content */
+
+.game-content {
+    margin-top: 30px;
+}
+
+.game-card {
+    padding-top: 40px;
+
+}
+.card-character {
+    border: 5px solid #85bfe3;
+    box-shadow: 0px 0px 10px 1px rgb(87, 86, 86);
+    width:  100%;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: 30px;
+}
+.card-character:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 10px 1px rgb(87, 86, 86);
+
+} 
+
+.card-character img{
+    width: 100%;
+}
+
+footer {
+    background: #1c3a7b;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.copy p{
+    margin: 0;
+}
+
+@media (max-width:992px){
+    .header{
+        margin-top: 140px;
+    }
+
+    .game-nav {
+        text-align: center;
+    }
+}
